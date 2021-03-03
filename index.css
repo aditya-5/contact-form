@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 .middle{
 	background-color: #6d38c4;
 	width: 40%;
@@ -48,7 +48,24 @@ body{
 }
 
 
+.card{
+	outline:none;
+	border:none;
+	background-color: #6d38c4; 
+
+}
+
+.card:hover{
+	outline:none;
+	border:none;
+	background-color: pink; 
+}
 
 
+#topp{
+	color:white ;
+	
+
+}
 
 
