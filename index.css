@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+.middle{
+	background-color: #6d38c4;
+	width: 40%;
+}
+
+#rounded{
+    border-radius:25px;
+	background-color: white;
+}
+
+body{
+	background-color: #6d38c4;
+	font-family: 'Cairo', sans-serif;
+	font-color:blue;
+}
+
+.bggrey{
+	background-color: #f2f2f2;
+}
