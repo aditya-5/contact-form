@@ -4,8 +4,14 @@
 	<title>Contact Form</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
 
+		
+	
+	</script>
+<script src="https://kit.fontawesome.com/21dbb8851c.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js">
+	</script>
 	<link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -17,45 +23,61 @@
 		</div>
 
 
-		<div class="row" id="rounded">
-		<div class="container p-4">
+		<div class="row " id="rounded" >
+			<div class="container p-4">	
+				<div class="col-md-12 ">
+					<br><h4>
+					Contact Form 
+					<br><br></h4>
+				</div>
 
-			<div class="col-md-12">
-				<br>
-			Contact Form 
-			<br><br>
-			</div>
 
 			<div class="row">
-			<div class="col-md-6">
-				<form>
+				<div class="col-md-6">
+					<form action="#">
+					<div class="mb-3  ">
+						<label for="name" class="form-label"> Your Name </label>
+						<br>
+						<div class="input-group">
+							 <span class="input-group-text" id="basic-addon1">
+							 	<i class="fas fa-user" aria-hidden="true"></i>
+							 </span>
+							<input type="text" class="form-control bggrey " id="name">
+						</div>
+					</div>
 
-				<div class="mb-3">
-					<label for="name" class="form-label"> Your Name </label>
-					<br>
-					<input type="text" class="form-control bggrey" id="name">
+					<div class="mb-3">
+						<label for="mail" class="form-label"> E-mail Address </label>
+						<br>
+						<div class="input-group">
+							 <span class="input-group-text" id="basic-addon1">
+							 	<i class="fas fa-at"></i>
+							 </span>
+							<input type="text" class="form-control bggrey" id="mail">
+							</div>
+						    <div class="form-text">Your email will never be shared.</div>
+
+					</div>
+
+					<div class="mb-3">
+						<label for="no" class="form-label"> Phone Number </label>
+						<br>
+						<div class="input-group">
+							 <span class="input-group-text" id="basic-addon1">
+							 	<i class="fas fa-phone" aria-hidden="true"></i>
+							 </span>
+							<input type="text" class="form-control bggrey" id="no">
+						</div>
+						<div class="form-text">No spam! Promise</div>
+					</div>
 				</div>
 
-				<div class="mb-3">
-					<label for="mail" class="form-label"> Mail </label>
-					<br>
-					<input type="text" class="form-control bggrey" id="mail">
+				<div class="col-md-6">
+					<div class="mb-3" >
+						<label for="msg" class="form-label"> Message </label><br>
+						<textarea  class="form-control bggrey" id="msg" cols="5" rows="10"> Enter your message</textarea>
+					</div>
 				</div>
-
-				<div class="mb-3">
-					<label for="no" class="form-label"> Phone Number </label>
-					<br>
-					<input type="text" class="form-control bggrey" id="no">
-				</div>
-			</div>
-
-			<div class="col-md-6">
-				<div class="mb-3" class="form-group">
-					<label for="msg" class="form-label"> Message </label>
-					<br>
-					<textarea  class="form-control bggrey" id="msg" cols="5" rows="8"> Enter your message</textarea>
-				</div>
-			</div>
 
 			</div>
 
@@ -63,26 +85,42 @@
 				<div class="col-md-12">
 					<label for="no" class="form-label"> Services </label>
 					<br>
-					<input type="text" class="form-control bggrey" id="no">
+					<div class="row">
+						<div class="col-3">
+							<button  type="button" class="btn-sm btn-light roundedButtons" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Web Design </button>
+						</div>
+					<div class="col-4">
+							<button  type="button" class="btn-sm btn-light roundedButtons">Web Development </button>
+						</div>
+					<div class="col-3">
+							<button type="button" class="btn-sm btn-light roundedButtons">Logo Design </button>
+						</div>
+					<div class="col-2">
+							<button type="button" class="btn-sm btn-light roundedButtons">Other </button>
+						</div>
+					</div>
 					<br>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<button class="btn btn-primary ">
-						Submit 
-					</button>
+					<br>
+					<button class="btn-lg btn-danger ">Send Message </button>
+					</form>
 					<br><br>
 				</div>
 			</div>
-
-
-			</form>
-			</div>
-
+			
 		</div>
+
 	</div>
-	
+</div>
+
+<script type="text/javascript" src="index.js"></script>
 </body>
 </html>
+
+
+
+<button type="button" class="btn btn-lg btn-danger" >Click to toggle popover</button>
